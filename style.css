@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background-color: white;
+    height: 36rem;
+    width: 20rem;
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    
+}
+
+.input{
+    border: none;
+    border-bottom: 1px solid;
+    width: 15rem;
+}
+
+#botonlogin {
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+color: white;
+}
+#pass{
+    
+    width: 10rem;
+    position: absolute;
+    right: 0;
+    bottom: 21rem;
+    font-size: 12px;
+
+}
+#espacioimg{
+    
+    height: 40px;
+    width: 65px;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+
+}
+img{
+    height: 20px;
+    width: 60px;
+    
+}
+#texto{
+    margin: auto;
+ 
+    width: 100px;
+    position: absolute;
+    text-align: center;
+    top: 360px;
+    left: 112px;
+    font-size: 12px;
+}
+
+#texto2{
+    margin: auto;
+    
+    width: 100px;
+    margin: top;
+    height: 20px;
+    font-size: 12px;
+    bottom: 60px;
+    right: 113px;
+    position: absolute;
+}
+#texto3{
+    margin: auto;
+    
+    width: 60px;
+    margin: top;
+    height: 20px;
+    font-size: 12px;
+    bottom: 40px;
+    right: 135px;
+    position: absolute;
+
+}
+
+
+
+
