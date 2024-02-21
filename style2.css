@@ -5,45 +5,46 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-   background-image: url(https://plus.unsplash.com/premium_photo-1670869657576-444dffe3b308?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-   background-repeat: no-repeat;
-   background-size: cover;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,85,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 #contenedor{
-    border: solid;
     height: 500px;
-    width: 850px;
+    width: 840px;
     margin: auto;
     margin-top:120px;
     position: relative;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 31px 0px rgba(88,148,204,1);
+    -moz-box-shadow: 10px 10px 31px 0px rgba(88,148,204,1);
+    box-shadow: 10px 10px 31px 0px rgba(88,148,204,1);
    
 }
 #cuadroizq{
     background-color: white;
-    border: solid;
     height: 500px;
     width: 350px;
     position: relative;
 }
 
 #nombreu{
-    border: solid;
     height: 30px;
     width: 300px;
     margin: auto;
     margin-top: 10px;
+    position: relative;
 
 
 }
 #foto{
-    border: solid;
+
     height: 100px;
     width: 160px;
     margin: auto;
     margin-top: 20px;
+    position: relative;
 }
 form{
-    border: solid red;
     height: 200px;
     width: 280px;
     margin: auto;
@@ -57,16 +58,89 @@ form{
     
 }
 #boton{
+    border: 0;
     margin-top: 10px;
     border-radius: 9px;
+    width: 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 18%, rgba(9,38,121,1) 56%, rgba(0,212,255,1) 97%);
+    color: white;
+
 }
 #fotoder{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Fvector-premium%2Fisometrica-ciudad-inteligente-edificios-inteligentes-calles-ciudad-conectadas-red-informatica-concepto-internet-cosas-centro-negocios-rascacielos_14914155.htm&psig=AOvVaw0SZK33-1Ycx5J_Yf82hjO-&ust=1708563177806000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjq8sr7m7uEAxUvXDABHSUJCg8QjRx6BAgAEBY);
-    height: 500px;
-    width: 500px;
     position: absolute;
     top: 0;
     right: 0;
-    border-radius: 15px;
-    border: solid;
+    height: 500px;
+    width: 494px;
+
+}
+#asdasd{
+    height: 495px;
+    width: 490px;
+}
+#imagenfoto{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 28%;
+}
+#shanghai{
+    position: absolute;
+    width: 250px;
+    font-size: 11px;
+    padding-left: 40px;
+    right: 30px;
+    top: 10px;
+
+}
+#fotosh{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+}
+h2{
+    position: absolute;
+    font-size: 13px;
+    bottom: 0;
+    left: 10px
+}
+#Forgot{
+    width: 150px;
+    height: 20px;
+    font-size: 10px;
+    right: 0;
+    position: absolute;
+    margin-top: -23px;
+
+}
+.campos{
+    border: 0;
+    border-bottom: .5px solid;
+}
+#icono1{
+     width: 10px;
+     height: 10px;
+}
+#icono2{
+    width: 10px;
+    height: 10px;
+}
+#icono3{
+    width: 10px;
+    height: 10px;
+
+}
+#centro{
+    margin: auto;
+    margin-top: 3.5rem;
+    position: absolute;
+    left: 23px;
+}
+
+.imgUser{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
